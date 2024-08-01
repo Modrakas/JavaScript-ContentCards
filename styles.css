@@ -139,3 +139,73 @@ h1 {
 .hobby {
   margin-bottom: .75rem;
 }
+
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main {
+    margin: 1.5rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+    margin-left: .5rem;
+  }
+
+  .info {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .card-name {
+    font-size: var(--small-font-size);
+  }
+
+  .character-life,
+  .hobby {
+    font-size: var(--smaller-font-size);
+  }
+
+  .cards-container {
+    margin: 0.5rem;
+  }
+  .card:hover img {
+    height: 4rem;
+    width: 4rem;
+    margin-top: .5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main {
+    margin: 1rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .info {
+    padding: 5px;
+  }
+
+  .cards-container {
+    margin: 0.5rem;
+  }
+
+  .card-image {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .card:hover img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
