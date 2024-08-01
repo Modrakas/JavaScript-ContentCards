@@ -6,9 +6,9 @@
 
 body {
   font-family: 'roboto', sans-serif;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   min-height: 100vh;
   background-color: hsl(91, 95%,73%);
 }
@@ -19,24 +19,37 @@ html {
 
 .card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: center;
+  align-items: center; */
   padding-top: .5em;
 }
 
+@media (max-width: 1000px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 780px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .card-container {
+    grid-template-columns:  1fr;
+  }
+}
+
 .card {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   background: hsl(91, 95%,80%);
-  width: 400px;
-  height: 250px;
   margin: 10px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.7);
   transition: 0.3s;
-  display: flex;
-  justify-self: center;
-  align-self: center;
-  justify-content: flex-start;
   width: 90%;
   margin: .5em;
 }
@@ -58,7 +71,7 @@ html {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  z-index: -1;
+  z-index: 1;
   transition: 0.3s; 
   left: 95%;
   transform: translateX(-95%);
@@ -112,14 +125,15 @@ html {
 
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  margin: 15px;
+  margin-top: 20px;
 }
 
 .footer button {
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .footer button:hover {
@@ -127,6 +141,11 @@ html {
   color: hsl(91, 95%,73%);
   padding: 2px 5px;
   border-radius: 2px;
+}
+
+.moreInfo {
+  font-size: 15px;
+  margin-top: 20px;
 }
 
 /* @media screen and (max-width: 1160px) {
