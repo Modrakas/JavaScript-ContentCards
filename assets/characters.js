@@ -1,7 +1,7 @@
 export const characters = [
   {
     name: 'Ellie Williams',
-    image: '/assets/images/ellie.png',
+    image: './assets/images/ellie.png',
     age: '19 years',
     weapon: 'Switchblade',
     residence: 'Jackson, WY',
@@ -10,7 +10,7 @@ export const characters = [
   },
   {
     name: "Joel Miller",
-    image: "/assets/images/joel.png",
+    image: "./assets/images/joel.png",
     age: "56 years",
     weapon: "Revolver",
     residence: 'Jackson, WY',
