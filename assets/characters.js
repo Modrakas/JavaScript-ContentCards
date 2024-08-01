@@ -1,7 +1,7 @@
 export const characters = [
   {
     name: 'Ellie Williams',
-    image: 'https://img.game8.co/3253674/d94845ae35742fb7aeab666c545ce17c.jpeg/show',
+    image: '/assets/images/ellie.png',
     age: '19 years',
     weapon: 'Switchblade',
     residence: 'Jackson, WY',
@@ -10,7 +10,7 @@ export const characters = [
   },
   {
     name: "Joel Miller",
-    image: "https://img.game8.co/3253664/103b20839a9d395c4391a3465867cdcb.jpeg/show",
+    image: "/assets/images/joel.png",
     age: "56 years",
     weapon: "Revolver",
     residence: 'Jackson, WY',
@@ -19,36 +19,40 @@ export const characters = [
   }, 
   {
     name: "Abby Anderson",
-    image: "https://img.game8.co/3253680/e37a8d8fc6ff287dbf28926e004aebd3.jpeg/show",
+    image: "/assets/images/abby.png",
     age: "20-21 years",
     weapon: "Military Pistol",
     bio: "Abigail 'Abby' Anderson is the dual protagonist of The Last of Us Part II and a playable character in No Return mode. After Joel Miller killed her father, Firefly member Jerry Anderson, Abby sought revenge. Following her vengeance, she found new purpose while journeying with her companion Lev."
   }, 
   {
     name: "Dina",
-    image: "https://img.game8.co/3253702/457134b322ef240fbf357b4f3e2022bb.jpeg/show",
+    image: "/assets/images/dina.png",
     age: "20-23 years",
     weapon: "Jacksonian Bolt-action Rifle",
     bio: "Dina is the deuteragonist of Ellie's story in The Last of Us Part II and a playable character in the No Return mode.She is Ellie's girlfriend and helps Ellie in her quest for revenge."
   }, 
   {
     name: "Tommy Miller",
-    image: "https://img.game8.co/3253667/5f6bdd9e98558a4b3a8d18fd39c8d45a.jpeg/show",
+    image: "/assets/images/tommy.png",
     age: "50-51 years",
     weapon: "Scoped Rifle",
     bio: "Tommy Miller, a supporting character in The Last of Us Part I and II and playable in No Return mode, is Joel's younger brother. Compassionate and caring, Tommy survived the outbreak's early years with Joel but later sought a more meaningful life. He joined the Fireflies and eventually found redemption with his wife Maria and the Jackson community. When Abby kills Joel, Tommy seeks out revenge with Ellie. Tommy ends up badly injured, unable to avenge his brother's death, and tells Ellie she must be the one to seek revenge."
   }, 
   {
     name: "Lev Benioff",
-    image: "https://img.game8.co/3253754/95629e336e9e7bc1a7f9ffd871a12089.jpeg/show",
+    image: "/assets/images/lev.png",
     age: "13 years",
     weapon: "Bow and Arrow",
     bio: "Lev is a former member of the Seraphites who is forced into exile after his community rejects him for being transgender. He is a playable character in No Return mode and the deuteragonist in Abby Anderson's story. Lev forms a bond with Abby, a member of the Washington Liberation Front (WLF) and helps Abby see a new purpose to life."
   },
 ];
 
-// https://imgix.bustle.com/uploads/image/2020/6/15/f69a4207-638f-4331-8360-b93862f2652d-tlou-2-ellie-close-up.jpg?w=920&h=560&fit=crop&crop=faces
+// https://preview.redd.it/what-do-you-think-about-levs-backstory-and-his-relationship-v0-8gz3hfy08vhb1.jpg?width=640&crop=smart&auto=webp&s=e8e7425c89e212cde068631247c220ea7bfae83bhttps://img.game8.co/3253754/95629e336e9e7bc1a7f9ffd871a12089.jpeg/show
 
-//https://static.wikia.nocookie.net/thelastofus/images/a/af/Part_II_Joel_infobox.png/revision/latest/scale-to-width-down/1000?cb=20230215221156
+//https://pbs.twimg.com/media/EcBfyIcXYAE4QqA?format=jpg&name=medium
 
-//https://static.wikia.nocookie.net/thelastofus/images/f/fd/Part_II_Abby_2035_infobox.png/revision/latest/scale-to-width-down/1000?cb=20230215213426
+//https://preview.redd.it/what-do-you-think-about-levs-backstory-and-his-relationship-v0-oswdqa218vhb1.jpg?width=736&format=pjpg&auto=webp&s=86da9afe1a7e706ab4034e198efcffe94e288065
+
+//https://preview.redd.it/what-do-you-think-about-levs-backstory-and-his-relationship-v0-8gz3hfy08vhb1.jpg?width=640&crop=smart&auto=webp&s=e8e7425c89e212cde068631247c220ea7bfae83b
+
+//https://pbs.twimg.com/media/EcBfyJ5WsAM_QHf?format=jpg&name=900x900

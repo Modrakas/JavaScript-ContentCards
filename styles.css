@@ -18,7 +18,7 @@ html {
 }
 
 .main {
-  margin-top: 3rem;
+  margin: 3rem;
 }
 
 .cards-grid {
@@ -80,7 +80,7 @@ h1 {
   transform: translateX(-95%);
 }
 
-.card-image:hover {
+.card:hover img{
   margin-top: 10px;
   border-radius: 50%;
   height: 90px;
