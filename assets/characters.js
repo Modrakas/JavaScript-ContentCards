@@ -6,7 +6,7 @@ export const characters = [
     weapon: 'Switchblade',
     residence: 'Jackson, WY',
     hobby: 'Playing guitar, journaling, and drawing.',
-    bio: "Ellie grew up as an orphan in Boston's quarantine zone and attended a FEDRA military school. At fourteen, she discovered she was immune to the Cordyceps infection. Marlene, leader of the Fireflies, believed Ellie was key to a vaccine and asked smuggler Joel Miller to escort her out of the QZ. Their simple task turned into a year-long journey across America, forming a close bond. In Salt Lake City, Joel learned Ellie had to die for a cure, so he killed the head surgeon and fled with Ellie to Jackson. For years, Ellie resented Joel for saving her. In 2038, Abby Anderson, the surgeon's daughter, killed Joel, leading Ellie to pursue Abby for revenge. Failing, Ellie retired to a farm with Dina and son JJ, but later abandoned them to hunt Abby again, ultimately sparing her. Ellie returned to the farm, accepting Joel's death and his choice to save her."
+    bio: "Ellie, an orphan from Boston's QZ, learned she was immune to the Cordyceps infection. Marlene, leader of the Fireflies, believed Ellie was the key to a vaccine and asked Joel to escort her out of the QZ. During their journey the two formed a close bond. When  Joel learned Ellie had to die for a cure, he killed the head surgeon and fled with Ellie to Jackson. Ellie later resented Joel for saving her, and in 2038, Abby, the surgeon's daughter, killed Joel. Ellie pursued Abby for revenge but ultimately spared her, returning to a farm only to leave again. In the end, Ellie accepted Joel's death and his choice to save her."
   },
   {
     name: "Joel Miller",
@@ -22,6 +22,8 @@ export const characters = [
     image: "/assets/images/abby.png",
     age: "20-21 years",
     weapon: "Military Pistol",
+    residence: 'Seattel, WA',
+    hobby: 'Petting giraffes, training and killing Joel.',
     bio: "Abigail 'Abby' Anderson is the dual protagonist of The Last of Us Part II and a playable character in No Return mode. After Joel Miller killed her father, Firefly member Jerry Anderson, Abby sought revenge. Following her vengeance, she found new purpose while journeying with her companion Lev."
   }, 
   {
@@ -29,6 +31,8 @@ export const characters = [
     image: "/assets/images/dina.png",
     age: "20-23 years",
     weapon: "Jacksonian Bolt-action Rifle",
+    residence: 'Jackson, WY',
+    hobby: 'Snowball fights, being w/ Ellie, and raising JJ',
     bio: "Dina is the deuteragonist of Ellie's story in The Last of Us Part II and a playable character in the No Return mode.She is Ellie's girlfriend and helps Ellie in her quest for revenge."
   }, 
   {
@@ -36,6 +40,8 @@ export const characters = [
     image: "/assets/images/tommy.png",
     age: "50-51 years",
     weapon: "Scoped Rifle",
+    residence: 'Jackson, WY',
+    hobby: 'Building a safe place to live and seeking revenge for Joel',
     bio: "Tommy Miller, a supporting character in The Last of Us Part I and II and playable in No Return mode, is Joel's younger brother. Compassionate and caring, Tommy survived the outbreak's early years with Joel but later sought a more meaningful life. He joined the Fireflies and eventually found redemption with his wife Maria and the Jackson community. When Abby kills Joel, Tommy seeks out revenge with Ellie. Tommy ends up badly injured, unable to avenge his brother's death, and tells Ellie she must be the one to seek revenge."
   }, 
   {
@@ -43,16 +49,8 @@ export const characters = [
     image: "/assets/images/lev.png",
     age: "13 years",
     weapon: "Bow and Arrow",
+    residence: 'Seraphire Island, Wa',
+    hobby: 'Tightrope walking, shooting arrows, and helping Abby.',
     bio: "Lev is a former member of the Seraphites who is forced into exile after his community rejects him for being transgender. He is a playable character in No Return mode and the deuteragonist in Abby Anderson's story. Lev forms a bond with Abby, a member of the Washington Liberation Front (WLF) and helps Abby see a new purpose to life."
   },
 ];
-
-// https://preview.redd.it/what-do-you-think-about-levs-backstory-and-his-relationship-v0-8gz3hfy08vhb1.jpg?width=640&crop=smart&auto=webp&s=e8e7425c89e212cde068631247c220ea7bfae83bhttps://img.game8.co/3253754/95629e336e9e7bc1a7f9ffd871a12089.jpeg/show
-
-//https://pbs.twimg.com/media/EcBfyIcXYAE4QqA?format=jpg&name=medium
-
-//https://preview.redd.it/what-do-you-think-about-levs-backstory-and-his-relationship-v0-oswdqa218vhb1.jpg?width=736&format=pjpg&auto=webp&s=86da9afe1a7e706ab4034e198efcffe94e288065
-
-//https://preview.redd.it/what-do-you-think-about-levs-backstory-and-his-relationship-v0-8gz3hfy08vhb1.jpg?width=640&crop=smart&auto=webp&s=e8e7425c89e212cde068631247c220ea7bfae83b
-
-//https://pbs.twimg.com/media/EcBfyJ5WsAM_QHf?format=jpg&name=900x900

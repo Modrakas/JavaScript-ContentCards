@@ -27,8 +27,12 @@ characters.forEach((character) => {
           ${character.weapon}
           </div>
 
-          <div class="woc">
+          <div class="hobby">
           ${character.hobby}
+          </div>
+
+          <div class="bio">
+          ${character.bio}
           </div>
         </div>
       </div>
