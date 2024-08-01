@@ -43,8 +43,3 @@ characters.forEach((character) => {
 });
 
 document.querySelector('.js-cards-grid').innerHTML = charactersHTML;
-
-function more(character){
-  document.getElementById('moreInfo')
-  .innerHTML=`<div class="moreInfo">${character.bio}`;
-}
