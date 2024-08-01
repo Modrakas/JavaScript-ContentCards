@@ -1,7 +1,7 @@
 export const characters = [
   {
     name: 'Ellie Williams',
-    image: './assets/images/ellie.png',
+    image: 'assets/images/ellie.png',
     age: '19 years',
     weapon: 'Switchblade',
     residence: 'Jackson, WY',
@@ -10,7 +10,7 @@ export const characters = [
   },
   {
     name: "Joel Miller",
-    image: "./assets/images/joel.png",
+    image: "assets/images/joel.png",
     age: "56 years",
     weapon: "Revolver",
     residence: 'Jackson, WY',
@@ -19,7 +19,7 @@ export const characters = [
   }, 
   {
     name: "Abby Anderson",
-    image: "./assets/images/abby.png",
+    image: "assets/images/abby.png",
     age: "20-21 years",
     weapon: "Military Pistol",
     residence: 'Seattel, WA',
@@ -28,7 +28,7 @@ export const characters = [
   }, 
   {
     name: "Dina",
-    image: "./assets/images/dina.png",
+    image: "assets/images/dina.png",
     age: "20-23 years",
     weapon: "Jacksonian Bolt-action Rifle",
     residence: 'Jackson, WY',
@@ -37,7 +37,7 @@ export const characters = [
   }, 
   {
     name: "Tommy Miller",
-    image: "./assets/images/tommy.png",
+    image: "assets/images/tommy.png",
     age: "50-51 years",
     weapon: "Scoped Rifle",
     residence: 'Jackson, WY',
@@ -46,7 +46,7 @@ export const characters = [
   }, 
   {
     name: "Lev Benioff",
-    image: "./assets/images/lev.png",
+    image: "assets/images/lev.png",
     age: "13 years",
     weapon: "Bow and Arrow",
     residence: 'Seraphire Island, Wa',
