@@ -177,15 +177,13 @@ h1 {
 }
 
 @media (max-width: 500px) {
+  .main {
+    margin: 0;
+  }
   .cards-grid {
     grid-template-columns: 1fr;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
-
-  .main {
-    margin: 1rem;
-  }
-
   h1 {
     font-size: 4rem;
   }
@@ -195,8 +193,7 @@ h1 {
   }
 
   .cards-container {
-    margin: 0.5rem;
-    margin-left: .7rem;
+    margin-top: .5rem;
     height: 15rem;
     width: 28rem;
   }
