@@ -41,6 +41,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: var(--second-font);
   color: var(--white-color);
@@ -144,12 +146,13 @@ h1 {
   }
 
   .main {
-    margin: 1.5rem;
+    margin: 1rem;
   }
 
   h1 {
     font-size: 6rem;
     margin-left: .5rem;
+    margin-top: 3rem;
   }
 
   .info {
@@ -185,21 +188,22 @@ h1 {
     margin-top: 1.5rem;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 5.25rem;
   }
 
   .info {
-    padding: 5px;
+    padding: 5%;
   }
 
   .cards-container {
     margin-top: .5rem;
-    height: 15rem;
-    width: 28rem;
+    margin-right: 1rem;
+    height: 18rem;
+    width: 23.25rem;
   }
 
   .cards-container:hover {
-    transform: scale(1.1);
+    transform: scale(1);
   }
 
   .card:hover img {
